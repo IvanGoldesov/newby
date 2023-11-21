@@ -6,3 +6,7 @@ def bubble_sort(matrix):
         for j in range(length-1):
             if matrix[j] > matrix[j+1]:
                 matrix[j], matrix[j+1] = matrix[j+1], matrix[j]
+
+
+if __name__ == "__main__":
+    bubble_sort(matrix=matrix)
