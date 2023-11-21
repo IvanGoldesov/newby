@@ -28,3 +28,7 @@ def split_and_merge_list(a):
         a2 = split_and_merge_list(a2)
 
     return merge_list(a1,a2)
+
+
+if __name__ == "__main__":
+    pass
